@@ -1,0 +1,157 @@
+:root {
+  --primary: #ff6348 ;
+  --gray-1: #2f3542;
+  --gray-2: #dadada;
+  --font-family: 'Montserrat', sans-serif;
+  --box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%) ;
+  --box-shadow-nav: rgb(0 0 0 / 22% ) 0px 2px 18px 0px;
+  --text-color: #444;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.my-30 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.calc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.btn {
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s opacity;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid var(--primary);
+}
+
+.btn-secondary {
+  background-color: #3498db;
+  color: white;
+  border: 1px #3498db;
+}
+
+.btn-reverse-primary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background-color: white;
+}
+
+.card {
+  border-radius: 20px;
+  border: 2px solid var(--gray-1);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.selected {
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+}
+
+li {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background: var(--gray-2);
+}
+/*# sourceMappingURL=index.css.map */
